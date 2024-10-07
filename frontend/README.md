@@ -21,8 +21,10 @@ Make sure you have the following installed on your machine:
    git clone https://github.com/YOUR_USERNAME/notesapp.git
    cd notesapp/frontend
 2. **Install the dependencies:**:
+    ```
     npm install
 3. **Run the application::**:
+    ```
     npm start
 4. Access the application: Open your browser and navigate to http://localhost:3000.    
 

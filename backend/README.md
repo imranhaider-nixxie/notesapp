@@ -23,11 +23,17 @@ Make sure you have the following installed on your machine:
    git clone https://github.com/YOUR_USERNAME/notesapp.git
    cd notesapp/backend
 2. **Install the dependencies:**:
-    npm install
+   ```
+   npm install
+   
 3. **Run MongoDB using Docker:**: If you haven't already set up MongoDB, run the following command in your terminal:
+   ```
     docker run --name mongodb -d -p 27017:27017 mongo
+   
 4. **Run the backend server:**:
+   ```
    npm run dev
+   
 5. **Access the API**: The API will be available at http://localhost:5000/api/notes
 
 ## API Endpoints
